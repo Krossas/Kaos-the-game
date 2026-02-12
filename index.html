@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kaos: The Game - Cartas</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="wrapper">
+        <!-- Header -->
+        <header class="header-dark">
+            <div class="container-fluid py-5">
+                <h1 class="display-4 text-center text-gold">Kaos: The Game</h1>
+                <p class="text-center text-muted">Colección Completa de Cartas</p>
+            </div>
+            
+            <!-- Navegación -->
+            <nav class="navbar-custom">
+                <div class="container-fluid">
+                    <ul class="nav-menu">
+                        <li><a href="#" class="nav-link active" data-page="cartas">Cartas</a></li>
+                        <li><a href="#" class="nav-link" data-page="sobre">Sobre el juego</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+
+
+        <!-- Página de CARTAS -->
+        <section id="cartas-page" class="page-section active">
+            <!-- Controles -->
+            <section class="controls-section">
+                <div class="container-fluid py-4">
+                    <div class="row g-3">
+                        <!-- Filtro por nombre -->
+                        <div class="col-md-6 col-lg-4">
+                            <div class="control-group">
+                                <label for="filterName" class="form-label text-gold">Buscar por nombre</label>
+                                <input 
+                                    type="text" 
+                                    id="filterName" 
+                                    class="form-control form-control-dark" 
+                                    placeholder="Escribe un nombre..."
+                                >
+                            </div>
+                        </div>
+
+                        <!-- Filtro por facción -->
+                        <div class="col-md-6 col-lg-4">
+                            <div class="control-group">
+                                <label for="filterFaction" class="form-label text-gold">Filtrar por facción</label>
+                                <select id="filterFaction" class="form-select form-select-dark">
+                                    <option value="">Todas las facciones</option>
+                                </select>
+                            </div>
+                        </div>
+
+                        <!-- Ordenar por -->
+                        <div class="col-md-6 col-lg-4">
+                            <div class="control-group">
+                                <label for="sortBy" class="form-label text-gold">Ordenar por</label>
+                                <select id="sortBy" class="form-select form-select-dark">
+                                    <option value="numero">Número de carta</option>
+                                    <option value="nombre">Nombre (A-Z)</option>
+                                    <option value="furia">Furia</option>
+                                    <option value="magia">Magia</option>
+                                    <option value="armas">Armas</option>
+                                    <option value="fuerza">Fuerza</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Contador de resultados -->
+                    <div class="row mt-3">
+                        <div class="col-12">
+                            <p class="text-muted text-center" id="resultCount">Cargando...</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Contenedor de cartas -->
+            <main class="main-content">
+                <div class="container-fluid py-5">
+                    <div id="cardsContainer">
+                        <div class="text-center py-5">
+                            <p class="text-muted">Cargando cartas...</p>
+                        </div>
+                    </div>
+                </div>
+            </main>
+        </section>
+
+        <!-- Página de SOBRE -->
+        <section id="sobre-page" class="page-section">
+            <main class="main-content">
+                <div class="container-fluid py-5">
+                    <div class="about-container">
+                        <!-- Información de la colección -->
+                        <section class="about-section">
+                            <h2 class="section-title text-gold">Sobre la Colección</h2>
+                            
+                            <div class="about-content">
+                                <p>
+                                    <strong>Kaos: The Game</strong> es una colección de cromos futurista 
+                                    que forma parte de un universo creado por <a href="https://es.wikipedia.org/wiki/Bollycao">Bollycao</a>. Cada cromo representa a un personaje legendario 
+                                    con sus propias estadísticas.
+                                </p>
+                                <p>
+                                    Esta colección combina arte innovador para los niños de la época con mecánicas de juego sencillas, 
+                                    permitiendo a los coleccionistas no solo reunir todas las cartas, sino también jugar con ellas de manera estratégica.
+                                </p>
+                            </div>
+                        </section>
+
+                        <!-- Dado D4 para imprimir -->
+                        <section class="about-section">
+                            <h2 class="section-title text-gold">La Pirámide del Poder</h2>
+                            
+                            <div class="dice-section">
+                                <p class="dice-description">
+                                    El juego utiliza un dado triangular para resolver encuentros y determinar 
+                                    el resultado de las batallas. Puedes imprimirte el tuyo propio haciendo clic en 
+                                    la imagen a continuación.
+                                </p>
+                                <div class="dice-image-container">
+                                    <img 
+                                        src="images/Piramide-del-Poder.png" 
+                                        alt="Dado D4 - Piramide del Poder" 
+                                        class="dice-image clickable"
+                                        id="diceImage"
+                                        title="Click para ver en grande"
+                                    >
+                                </div>
+                                <p class="dice-hint">
+                                    💡 <em>Haz clic en la imagen para verla en tamaño completo y poder imprimirla</em>
+                                </p>
+                            </div>
+                        </section>
+
+                        <!-- Reglas del juego -->
+                        <section class="about-section">
+                            <h2 class="section-title text-gold">Reglas del Juego</h2>
+                            
+                            <div class="rules-section">
+                                <p>
+                                    Las reglas completas del juego están detalladas en los anversos de las cartas. 
+                                    Para verlas con más claridad, haz clic en la imagen a continuación:
+                                </p>
+                                <div class="rules-image-container">
+                                    <img 
+                                        src="images/Kaos_The-Game_Reglas.png" 
+                                        alt="Reglas del juego" 
+                                        class="rules-image clickable"
+                                        id="rulesImage"
+                                        title="Click para ver en grande"
+                                    >
+                                </div>
+                                <p class="rules-hint">
+                                    📖 <em>Haz clic en la imagen para verla en tamaño completo</em>
+                                </p>
+                            </div>
+                        </section>
+                    </div>
+                </div>
+            </main>
+        </section>
+
+        <!-- Modal para ver cartas en grande -->
+        <div id="cardModal" class="modal-overlay">
+            <div class="modal-content">
+                <button class="modal-close" id="cardModalClose">&times;</button>
+                <img id="cardModalImage" src="" alt="Carta ampliada" class="modal-image">
+                <div class="modal-info">
+                    <h3 id="cardModalTitle"></h3>
+                </div>
+            </div>
+        </div>
+
+        <!-- Modal para ver imagen ampliada (dado y reglas) -->
+        <div id="imageModal" class="modal-overlay">
+            <div class="modal-content modal-fullscreen">
+                <button class="modal-close" id="imageModalClose">&times;</button>
+                <img id="imageModalImg" src="" alt="Imagen ampliada" class="modal-image-full">
+            </div>
+        </div>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

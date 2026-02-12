@@ -1,0 +1,452 @@
+[
+  {
+    "id": 1,
+    "nombre": "Yukon",
+    "numero": 1,
+    "grupo": "Defenders",
+    "grupoid": 1,
+    "image": "images/defenders/carta-01.png",
+    "stats": { "ataque": 50000, "inteligencia": 1, "defensa": 2000, "velocidad": 100000 }
+  },
+  {
+    "id": 2,
+    "nombre": "Akara Shier",
+    "numero": 2,
+    "grupo": "Defenders",
+    "grupoid": 1,
+    "image": "images/defenders/carta-02.png",
+    "stats": { "ataque": 48000, "inteligencia": 2, "defensa": 4000, "velocidad": 96000 }
+  },
+  {
+    "id": 3,
+    "nombre": "Zeus",
+    "numero": 3,
+    "grupo": "Defenders",
+    "grupoid": 1,
+    "image": "images/defenders/carta-03.png",
+    "stats": { "ataque": 46000, "inteligencia": 3, "defensa": 6000, "velocidad": 92000 }
+  },
+  {
+    "id": 4,
+    "nombre": "Adonis",
+    "numero": 4,
+    "grupo": "Defenders",
+    "grupoid": 1,
+    "image": "images/defenders/carta-04.png",
+    "stats": { "ataque": 44000, "inteligencia": 4, "defensa": 8000, "velocidad": 88000 }
+  },
+  {
+    "id": 5,
+    "nombre": "Basic B",
+    "numero": 5,
+    "grupo": "Defenders",
+    "grupoid": 1,
+    "image": "images/defenders/carta-05.png",
+    "stats": { "ataque": 42000, "inteligencia": 5, "defensa": 10000, "velocidad": 84000 }
+  },
+  {
+    "id": 6,
+    "nombre": "Exterminator",
+    "numero": 6,
+    "grupo": "Defenders",
+    "grupoid": 1,
+    "image": "images/defenders/carta-06.png",
+    "stats": { "ataque": 40000, "inteligencia": 6, "defensa": 12000, "velocidad": 80000 }
+  },
+  {
+    "id": 7,
+    "nombre": "Justice",
+    "numero": 7,
+    "grupo": "Defenders",
+    "grupoid": 1,
+    "image": "images/defenders/carta-07.png",
+    "stats": { "ataque": 38000, "inteligencia": 7, "defensa": 14000, "velocidad": 76000 }
+  },
+  {
+    "id": 8,
+    "nombre": "Outsider",
+    "numero": 8,
+    "grupo": "Defenders",
+    "grupoid": 1,
+    "image": "images/defenders/carta-08.png",
+    "stats": { "ataque": 36000, "inteligencia": 8, "defensa": 16000, "velocidad": 72000 }
+  },
+  {
+    "id": 9,
+    "nombre": "Hybrid",
+    "numero": 9,
+    "grupo": "Defenders",
+    "grupoid": 1,
+    "image": "images/defenders/carta-09.png",
+    "stats": { "ataque": 34000, "inteligencia": 9, "defensa": 18000, "velocidad": 68000 }
+  },
+  {
+    "id": 10,
+    "nombre": "Micro Murphy",
+    "numero": 10,
+    "grupo": "Defenders",
+    "grupoid": 1,
+    "image": "images/defenders/carta-10.png",
+    "stats": { "ataque": 32000, "inteligencia": 10, "defensa": 20000, "velocidad": 64000 }
+  },
+  {
+    "id": 11,
+    "nombre": "Dakotae",
+    "numero": 11,
+    "grupo": "Defenders",
+    "grupoid": 1,
+    "image": "images/defenders/carta-11.png",
+    "stats": { "ataque": 30000, "inteligencia": 11, "defensa": 22000, "velocidad": 60000 }
+  },
+  {
+    "id": 12,
+    "nombre": "Falcon",
+    "numero": 12,
+    "grupo": "Defenders",
+    "grupoid": 1,
+    "image": "images/defenders/carta-12.png",
+    "stats": { "ataque": 28000, "inteligencia": 12, "defensa": 24000, "velocidad": 56000 }
+  },
+  {
+    "id": 13,
+    "nombre": "LZM",
+    "numero": 1,
+    "grupo": "Defenders",
+    "grupoid": 1,
+    "image": "images/defenders/carta-13.png",
+    "stats": { "ataque": 26000, "inteligencia": 13, "defensa": 26000, "velocidad": 52000 }
+  },
+  {
+    "id": 14,
+    "nombre": "Jericho",
+    "numero": 14,
+    "grupo": "Defenders",
+    "grupoid": 1,
+    "image": "images/defenders/carta-14.png",
+    "stats": { "ataque": 24000, "inteligencia": 14, "defensa": 28000, "velocidad": 48000 }
+  },
+  {
+    "id": 15,
+    "nombre": "NEKO-20",
+    "numero": 15,
+    "grupo": "Defenders",
+    "grupoid": 1,
+    "image": "images/defenders/carta-15.png",
+    "stats": { "ataque": 22000, "inteligencia": 15, "defensa": 30000, "velocidad": 44000 }
+  },
+  {
+    "id": 16,
+    "nombre": "Inferno",
+    "numero": 16,
+    "grupo": "Defenders",
+    "grupoid": 1,
+    "image": "images/defenders/carta-16.png",
+    "stats": { "ataque": 20000, "inteligencia": 16, "defensa": 32000, "velocidad": 40000 }
+  },
+  {
+    "id": 17,
+    "nombre": "Sarka",
+    "numero": 17,
+    "grupo": "Defenders",
+    "grupoid": 1,
+    "image": "images/defenders/carta-17.png",
+    "stats": { "ataque": 18000, "inteligencia": 17, "defensa": 34000, "velocidad": 36000 }
+  },
+  {
+    "id": 18,
+    "nombre": "KATYA-732",
+    "numero": 18,
+    "grupo": "Defenders",
+    "grupoid": 1,
+    "image": "images/defenders/carta-18.png",
+    "stats": { "ataque": 16000, "inteligencia": 18, "defensa": 36000, "velocidad": 32000 }
+  },
+  {
+    "id": 19,
+    "nombre": "Thor",
+    "numero": 19,
+    "grupo": "Defenders",
+    "grupoid": 1,
+    "image": "images/defenders/carta-19.png",
+    "stats": { "ataque": 14000, "inteligencia": 19, "defensa": 38000, "velocidad": 28000 }
+  },
+  {
+    "id": 20,
+    "nombre": "VIKTOR-1",
+    "numero": 20,
+    "grupo": "Defenders",
+    "grupoid": 1,
+    "image": "images/defenders/carta-20.png",
+    "stats": { "ataque": 12000, "inteligencia": 20, "defensa": 40000, "velocidad": 24000 }
+  },
+  {
+    "id": 21,
+    "nombre": "Cobra",
+    "numero": 21,
+    "grupo": "Defenders",
+    "grupoid": 1,
+    "image": "images/defenders/carta-21.png",
+    "stats": { "ataque": 10000, "inteligencia": 21, "defensa": 42000, "velocidad": 20000 }
+  },
+  {
+    "id": 22,
+    "nombre": "Willow",
+    "numero": 22,
+    "grupo": "Defenders",
+    "grupoid": 1,
+    "image": "images/defenders/carta-22.png",
+    "stats": { "ataque": 8000, "inteligencia": 22, "defensa": 44000, "velocidad": 16000 }
+  },
+  {
+    "id": 23,
+    "nombre": "Rasek",
+    "numero": 23,
+    "grupo": "Defenders",
+    "grupoid": 1,
+    "image": "images/defenders/carta-23.png",
+    "stats": { "ataque": 6000, "inteligencia": 23, "defensa": 46000, "velocidad": 12000 }
+  },
+  {
+    "id": 24,
+    "nombre": "Galaxy",
+    "numero": 24,
+    "grupo": "Defenders",
+    "grupoid": 1,
+    "image": "images/defenders/carta-24.png",
+    "stats": { "ataque": 4000, "inteligencia": 24, "defensa": 48000, "velocidad": 8000 }
+  },
+  {
+    "id": 25,
+    "nombre": "Omega",
+    "numero": 25,
+    "grupo": "Defenders",
+    "grupoid": 1,
+    "image": "images/defenders/carta-25.png",
+    "stats": { "ataque": 2000, "inteligencia": 25, "defensa": 50000, "velocidad": 4000 }
+  },
+  {
+    "id": 26,
+    "nombre": "Hoodoo",
+    "numero": 1,
+    "grupo": "Monsters",
+    "grupoid": 2,
+    "image": "images/monsters/carta-01.png",
+    "stats": { "ataque": 2000, "inteligencia": 25, "defensa": 50000, "velocidad": 4000 }
+  },
+  {
+    "id": 27,
+    "nombre": "Panic",
+    "numero": 2,
+    "grupo": "Monsters",
+    "grupoid": 2,
+    "image": "images/monsters/carta-02.png",
+    "stats": { "ataque": 4000, "inteligencia": 24, "defensa": 48000, "velocidad": 8000 }
+  },
+  {
+    "id": 28,
+    "nombre": "Alfa",
+    "numero": 3,
+    "grupo": "Monsters",
+    "grupoid": 2,
+    "image": "images/monsters/carta-03.png",
+    "stats": { "ataque": 6000, "inteligencia": 23, "defensa": 46000, "velocidad": 12000 }
+  },
+  {
+    "id": 29,
+    "nombre": "Infector",
+    "numero": 4,
+    "grupo": "Monsters",
+    "grupoid": 2,
+    "image": "images/monsters/carta-04.png",
+    "stats": { "ataque": 8000, "inteligencia": 22, "defensa": 44000, "velocidad": 16000 }
+  },
+  {
+    "id": 30,
+    "nombre": "Revenge",
+    "numero": 5,
+    "grupo": "Monsters",
+    "grupoid": 2,
+    "image": "images/monsters/carta-05.png",
+    "stats": { "ataque": 10000, "inteligencia": 21, "defensa": 42000, "velocidad": 20000 }
+  },
+  {
+    "id": 31,
+    "nombre": "FOX-2",
+    "numero": 6,
+    "grupo": "Monsters",
+    "grupoid": 2,
+    "image": "images/monsters/carta-06.png",
+    "stats": { "ataque": 12000, "inteligencia": 20, "defensa": 40000, "velocidad": 24000 }
+  },
+  {
+    "id": 32,
+    "nombre": "Wolf",
+    "numero": 7,
+    "grupo": "Monsters",
+    "grupoid": 2,
+    "image": "images/monsters/carta-07.png",
+    "stats": { "ataque": 14000, "inteligencia": 19, "defensa": 38000, "velocidad": 28000 }
+  },
+  {
+    "id": 33,
+    "nombre": "NC Claud",
+    "numero": 8,
+    "grupo": "Monsters",
+    "grupoid": 2,
+    "image": "images/monsters/carta-08.png",
+    "stats": { "ataque": 16000, "inteligencia": 18, "defensa": 36000, "velocidad": 32000 }
+  },
+  {
+    "id": 34,
+    "nombre": "Kamikaze",
+    "numero": 9,
+    "grupo": "Monsters",
+    "grupoid": 2,
+    "image": "images/monsters/carta-09.png",
+    "stats": { "ataque": 18000, "inteligencia": 17, "defensa": 34000, "velocidad": 36000 }
+  },
+  {
+    "id": 35,
+    "nombre": "Vampiro",
+    "numero": 10,
+    "grupo": "Monsters",
+    "grupoid": 2,
+    "image": "images/monsters/carta-10.png",
+    "stats": { "ataque": 20000, "inteligencia": 16, "defensa": 32000, "velocidad": 40000 }
+  },
+  {
+    "id": 36,
+    "nombre": "Envader",
+    "numero": 11,
+    "grupo": "Monsters",
+    "grupoid": 2,
+    "image": "images/monsters/carta-11.png",
+    "stats": { "ataque": 22000, "inteligencia": 15, "defensa": 30000, "velocidad": 44000 }
+  },
+  {
+    "id": 37,
+    "nombre": "Red Viper",
+    "numero": 12,
+    "grupo": "Monsters",
+    "grupoid": 2,
+    "image": "images/monsters/carta-12.png",
+    "stats": { "ataque": 24000, "inteligencia": 14, "defensa": 28000, "velocidad": 48000 }
+  },
+  {
+    "id": 38,
+    "nombre": "Mega Bug",
+    "numero": 13,
+    "grupo": "Monsters",
+    "grupoid": 2,
+    "image": "images/monsters/carta-13.png",
+    "stats": { "ataque": 26000, "inteligencia": 13, "defensa": 26000, "velocidad": 52000 }
+  },
+  {
+    "id": 39,
+    "nombre": "Gotcha",
+    "numero": 14,
+    "grupo": "Monsters",
+    "grupoid": 2,
+    "image": "images/monsters/carta-14.png",
+    "stats": { "ataque": 28000, "inteligencia": 12, "defensa": 24000, "velocidad": 56000 }
+  },
+  {
+    "id": 40,
+    "nombre": "Quox",
+    "numero": 15,
+    "grupo": "Monsters",
+    "grupoid": 2,
+    "image": "images/monsters/carta-15.png",
+    "stats": { "ataque": 30000, "inteligencia": 11, "defensa": 22000, "velocidad": 60000 }
+  },
+  {
+    "id": 41,
+    "nombre": "Lockate",
+    "numero": 16,
+    "grupo": "Monsters",
+    "grupoid": 2,
+    "image": "images/monsters/carta-16.png",
+    "stats": { "ataque": 32000, "inteligencia": 10, "defensa": 20000, "velocidad": 64000 }
+  },
+  {
+    "id": 42,
+    "nombre": "Chaos AD",
+    "numero": 17,
+    "grupo": "Monsters",
+    "grupoid": 2,
+    "image": "images/monsters/carta-17.png",
+    "stats": { "ataque": 34000, "inteligencia": 9, "defensa": 18000, "velocidad": 68000 }
+  },
+  {
+    "id": 43,
+    "nombre": "Mr. Mouse",
+    "numero": 18,
+    "grupo": "Monsters",
+    "grupoid": 2,
+    "image": "images/monsters/carta-18.png",
+    "stats": { "ataque": 36000, "inteligencia": 8, "defensa": 16000, "velocidad": 72000 }
+  },
+  {
+    "id": 44,
+    "nombre": "Chips",
+    "numero": 19,
+    "grupo": "Monsters",
+    "grupoid": 2,
+    "image": "images/monsters/carta-19.png",
+    "stats": { "ataque": 38000, "inteligencia": 7, "defensa": 14000, "velocidad": 76000 }
+  },
+  {
+    "id": 45,
+    "nombre": "SKULL-177",
+    "numero": 20,
+    "grupo": "Monsters",
+    "grupoid": 2,
+    "image": "images/monsters/carta-20.png",
+    "stats": { "ataque": 40000, "inteligencia": 6, "defensa": 12000, "velocidad": 80000 }
+  },
+  {
+    "id": 46,
+    "nombre": "Dead Win",
+    "numero": 21,
+    "grupo": "Monsters",
+    "grupoid": 2,
+    "image": "images/monsters/carta-21.png",
+    "stats": { "ataque": 42000, "inteligencia": 5, "defensa": 10000, "velocidad": 84000 }
+  },
+  {
+    "id": 47,
+    "nombre": "Xtratank",
+    "numero": 22,
+    "grupo": "Monsters",
+    "grupoid": 2,
+    "image": "images/monsters/carta-22.png",
+    "stats": { "ataque": 44000, "inteligencia": 4, "defensa": 8000, "velocidad": 88000 }
+  },
+  {
+    "id": 48,
+    "nombre": "Cyberload",
+    "numero": 23,
+    "grupo": "Monsters",
+    "grupoid": 2,
+    "image": "images/monsters/carta-23.png",
+    "stats": { "ataque": 46000, "inteligencia": 3, "defensa": 6000, "velocidad": 92000 }
+  },
+  {
+    "id": 49,
+    "nombre": "Bad Boy",
+    "numero": 24,
+    "grupo": "Monsters",
+    "grupoid": 2,
+    "image": "images/monsters/carta-24.png",
+    "stats": { "ataque": 48000, "inteligencia": 2, "defensa": 4000, "velocidad": 96000 }
+  },
+  {
+    "id": 50,
+    "nombre": "Dragon",
+    "numero": 25,
+    "grupo": "Monsters",
+    "grupoid": 2,
+    "image": "images/monsters/carta-25.png",
+    "stats": { "ataque": 50000, "inteligencia": 1, "defensa": 2000, "velocidad": 100000 }
+  }
+]
